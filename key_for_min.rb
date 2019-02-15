@@ -23,7 +23,7 @@ def key_for_min_value(name_hash)
     if num == min_value
       return name
     elsif name_hash == {}
-      return nil
+      return "nil"
     end
   end
 end
