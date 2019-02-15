@@ -8,10 +8,9 @@ def key_for_min_value(name_hash)
   end
   
   counter = 0 
-  loop_cap = values.length
   min_value = values[counter]
   
-  while counter < loop_cap
+  while counter < values.length
     if min_value < values[counter]
       min_value
     else
