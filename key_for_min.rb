@@ -24,7 +24,7 @@ def key_for_min_value(name_hash)
     if num == min_value
       min_name = name
     end
-    min_name
   end
+  min_name
   
 end
